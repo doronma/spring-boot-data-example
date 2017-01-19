@@ -1,11 +1,11 @@
 ----------------------------------------------------------------
-Wed Jan 18 17:56:15 IST 2017:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0159-b24a-f8c7-000000875ce8 
-on database directory memory:/home/doron/Developer/sts/ws2/course-api-data/testdb with class loader sun.misc.Launcher$AppClassLoader@387f44 
-Loaded from file:/home/doron/.m2/repository/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar
+Wed Jan 18 18:31:00 IST 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0159-b26a-cc1e-000000c0b9b8 
+on database directory memory:/home/doron/git/spring/spring-boot-data/course-api-data/testdb with class loader org.springframework.boot.loader.LaunchedURLClassLoader@12133b1 
+Loaded from jar:file:/home/doron/git/spring/spring-boot-data/course-api-data/target/course-api-data-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/derby-10.12.1.1.jar!/
 java.vendor=Oracle Corporation
 java.runtime.version=1.8.0_25-b17
-user.dir=/home/doron/Developer/sts/ws2/course-api-data
+user.dir=/home/doron/git/spring/spring-boot-data/course-api-data
 os.name=Linux
 os.arch=i386
 os.version=4.4.0-59-generic
