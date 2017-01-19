@@ -1,4 +1,4 @@
-package boot_rest.Course;
+package boot_rest.course;
 
 import java.util.List;
 
@@ -21,34 +21,34 @@ public class CourseController {
 
 	}
 
-	@RequestMapping("/topics/{id}/courses")
-	public List<Course> getAllCourses(@PathVariable String id) {
-		System.out.println("In get all courses with id ..." + id);
-		return courseService.getAllCourses(id);
+	@RequestMapping("/topics/{topicId}/courses")
+	public List<Course> getAllCourses(@PathVariable String topicId) {
+		System.out.println("In get all courses with id ..." + topicId);
+		return courseService.getAllCourses(topicId);
 	}
 
-	@RequestMapping("/topics/{id}/courses/{courseId}")
+	@RequestMapping("/topics/{topicId}/courses/{courseId}")
 	public Course getCourse(@PathVariable String courseId) {
 		return courseService.getCourse(courseId);
 	}
 
-	@RequestMapping(method=RequestMethod.POST,value="/topics/{id}/courses}")
-	public void addCourse(@RequestBody Course course,@PathVariable String id) {
-		System.out.println("add course for topic id " + id +" course - " + course);
-		course.setTopic(new Topic(id,"",""));
+	@RequestMapping(method=RequestMethod.POST,value="/topics/{topicId}/courses")
+	public void addCourse(@RequestBody Course course,@PathVariable String topicId) {
+		System.out.println("add course for topic id " + topicId +" course - " + course);
+		course.setTopic(new Topic(topicId,"",""));
 		courseService.addCourse(course);
 	}
 	
-	@RequestMapping(method=RequestMethod.PUT,value="/topics/{id}/courses/{courseid}")
-	public void updateCourse(@RequestBody Course course,@PathVariable String id) {
+	@RequestMapping(method=RequestMethod.PUT,value="/topics/{topicId}/courses/{courseid}")
+	public void updateCourse(@RequestBody Course course,@PathVariable String topicId) {
 		System.out.println("in updatecourse...");
-		course.setTopic(new Topic(id,"",""));
+		course.setTopic(new Topic(topicId,"",""));
 		courseService.addCourse(course);
 	}
 	
 	
 	
-	@RequestMapping(method=RequestMethod.DELETE,value="/topics/{id}/courses/{courseid}")
+	@RequestMapping(method=RequestMethod.DELETE,value="/topics/{topicId}/courses/{courseid}")
 	public void deleteTopic(@PathVariable String courseid) {
 		courseService.deleteCourse(courseid);
 	}

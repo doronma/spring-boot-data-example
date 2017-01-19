@@ -21,6 +21,7 @@ public class TopicController {
 
 	@RequestMapping("/topics")
 	public List<Topic> getAllTopics() {
+		System.out.println("in get all Topics");
 		return topicService.getAllTopics();
 	}
 
@@ -32,6 +33,7 @@ public class TopicController {
 
 	@RequestMapping(method=RequestMethod.POST,value="/topics")
 	public void addTopic(@RequestBody Topic topic) {
+		System.out.println("In post topic");
 		topicService.addTopic(topic);
 	}
 	

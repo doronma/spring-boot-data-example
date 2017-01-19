@@ -1,4 +1,4 @@
-package boot_rest.Course;
+package boot_rest.course;
 
 import java.util.List;
 

@@ -1,13 +1,13 @@
 ----------------------------------------------------------------
-Wed Jan 18 18:31:00 IST 2017:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0159-b26a-cc1e-000000c0b9b8 
-on database directory memory:/home/doron/git/spring/spring-boot-data/course-api-data/testdb with class loader org.springframework.boot.loader.LaunchedURLClassLoader@12133b1 
-Loaded from jar:file:/home/doron/git/spring/spring-boot-data/course-api-data/target/course-api-data-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/derby-10.12.1.1.jar!/
+Thu Jan 19 22:32:22 IST 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0159-b86e-2378-000006ad1930 
+on database directory memory:C:\Users\User\git\doronma\spring-boot-data-example\course-api-data\testdb with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Loaded from file:/C:/Users/User/.m2/repository/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar
 java.vendor=Oracle Corporation
-java.runtime.version=1.8.0_25-b17
-user.dir=/home/doron/git/spring/spring-boot-data/course-api-data
-os.name=Linux
-os.arch=i386
-os.version=4.4.0-59-generic
+java.runtime.version=1.8.0_112-b15
+user.dir=C:\Users\User\git\doronma\spring-boot-data-example\course-api-data
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
 derby.system.home=null
 Database Class Loader started - derby.database.classpath=''
